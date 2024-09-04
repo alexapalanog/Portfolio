@@ -726,6 +726,25 @@ i {
     transform: translateX(.25rem);
 }
 
+.project_container::-webkit-scrollbar {
+    height: 12px; 
+}
+
+.project_container::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right, #afafaf, #5e5e5e);
+    border-radius: 6px;
+}
+
+.project_container::-webkit-scrollbar-track {
+    background: #f0f0f0; 
+    border-radius: 6px; 
+}
+
+.project_container::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to right, #afafaf, #3a3a3a);
+}
+
+
 /* Activity Section */
 .activities {
     padding: 2rem 0;
