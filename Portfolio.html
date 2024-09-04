@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <!--Header-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">
+                <span class="nav_logo-circle">A</span>
+                <span class="nav_logo-name">Alexa</span>
+            </a>
+
+            <div class="nav_menu" id="nav-menu">
+                <span class="nav_title">Menu</span> 
+
+                <h3 class="nav_name">Alexa</h3>
+
+            <!-- Header Navigation -->
+            <ul class="nav_list">
+                <li class="nav_item">
+                    <a href="#home" class="nav_link active-link">Home</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#about" class="nav_link">About</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#skills" class="nav_link">Skills</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#projects" class="nav_link">Projects</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#activity" class="nav_link">Activities</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#contact" class="nav_link nav_link-button">Contact Me</a>
+                </li>
+            </ul>
+
+
+                <!-- Close button -->
+                <div class="nav_close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav_button">
+                <!-- Toggle button -->
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="ri-menu-4-line"></i>
+                </div>
+            </div>
+            
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <h1 class="home_name">
+                    Alexandra Antonette Palanog
+                </h1>
+                
+                <div class="home_me">
+                    <div class="home_image">
+                        <img src="images/alex.JPG" alt="" class="home_img">
+                    </div>                   
+
+                    <div class="home_socials">
+                        <a href="https://www.facebook.com/alexa.medel.cute" target="_blank" class="home_social_link">
+                            <i class="ri-facebook-line"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/alexandra-antonette-palanog-a8521a248/" target="_blank" class="home_social_link">
+                            <i class="ri-linkedin-line"></i>
+                        </a>
+                        <a href="https://github.com/alexapalanog" target="_blank" class="home_social_link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home_info">
+                    <h2 class="home_label" id="home">
+                        Computer Science Student
+                    </h2>
+                    <p class="home_description">
+                        Hi, I am Alexa! A dedicated computer science student 
+                        specializing in Data Science from the University of Santo Tomas. 
+                        Let's connect?
+                    </p>
+                    <a href="#about" class="home_scroll">
+                        <div class="home_scroll-box">
+                            <i class="ri-arrow-down-s-line"></i>
+                        </div>
+
+                        <a href="#about" span class="home_scroll-text">Scroll Down</a>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about section" id="about">
+            <div class="about_container container grid">
+                <h2 class="section_title-1">
+                    About Me
+                </h2>
+
+                <div class="about_me">
+                    <div class="about_image">
+                        <img src="images/alex2.JPG" alt="" class="about_img">
+                    </div>
+                </div>
+                        
+                <div class="about_info">
+                    <p class="about_description">
+                        I am passionate in leadership, <strong>UI/UX</strong>, <strong>web development</strong>, <strong>data analysis</strong>, <strong>crafting solutions</strong> and <strong>visualizations</strong>. 
+                        What I love about tech is its endless evolution and the constant opportunities to experiment and explore.
+                    </p>
+                </div>
+
+                <div class="about_button">
+                    <a href="CV_PALANOG.pdf" target="_blank" class="button">
+                            Download CV
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/alexandra-antonette-palanog-a8521a248/" target="_blank" class="button_link_icon">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                </div>
+            </div>
+        </section>   
+        
+        <!-- Tools & Skills -->
+        <section class="skills" id="skills">
+            <h2 class="section_title-2">
+                Tools & Skills
+            </h2>
+            <div class="skills_container">
+                <div class="row" id="SkillsContainer">
+                    <div class="bar">
+                        <div class="info">
+                            <i class="fa-brands fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                    </div>
+
+                    <div class="bar">
+                        <div class="info">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+
+                    <div class="bar">
+                        <div class="info">
+                            <i class="fa-brands fa-figma"></i>
+                            <span>Figma</span>
+                        </div>
+                    </div>
+
+                    <div class="bar">
+                        <div class="info">
+                            <i class="fa-solid fa-database"></i>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+
+                    <div class="bar">
+                        <div class="info">
+                            <i class="fa-solid fa-r"></i>
+                            <span>R</span>
+                        </div>
+                    </div>
+
+                    <div class="bar">
+                        <div class="info">
+                            <i class="fa-brands fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                    </div>
+
+                    <div class="bar">
+                        <div class="info">
+                            <i class="fa-brands fa-js"></i>
+                            <span>JScript</span>
+                        </div>
+                    </div>
+
+                    <div class="bar">
+                        <div class="info">
+                            <i class="fa-brands fa-microsoft"></i>
+                            <span>Microsoft</span>
+                        </div>
+                    </div>
+
+                    <div class="bar">
+                        <div class="info">
+                            <i class="fa-brands fa-github"></i>
+                            <span>Github</span>
+                        </div>
+                    </div>
+
+                    <div class="bar">
+                        <div class="info">
+                            <i class="fa-brands fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                    </div>
+
+                    <div class="bar">
+                        <div class="info">
+                            <i class="fa-brands fa-flutter"></i>
+                            <span>Flutter</span>
+                        </div>
+                    </div>
+
+                    <div class="bar">
+                        <div class="info">
+                            <i class="fa-brands fa-dart-lang"></i>
+                            <span>Dart</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Projects -->
+        <section class="projects section" id="projects">
+            <h2 class="section_title-3">Projects</h2>
+            <span class="section_subtitle">Most recent work</span>
+        
+            <div class="container section_border">
+                <div class="project_container">
+                    <div class="project_content">
+                        <div class="project_content-item">
+                            <img src="images/activelearningph.png" alt="projects image" class="projects_image">
+                            <div>
+                                <span class="projects_subtitle">Web</span>
+                                <span class="projects_subtitle">CSS</span>
+                                <span class="projects_subtitle">HTML</span>
+                                <span class="projects_subtitle">SQL</span>
+                                <span class="projects_subtitle">Java</span>
+                                <span class="projects_subtitle">JS</span>
+                                <h1 class="projects_title">Instructor Application website <br>for Active Learning Ph</h1>
+                                <a href="#" class="projects_button">View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+        
+                        <div class="project_content-item">
+                            <img src="images/tomasiknows.png" alt="projects image" class="projects_image">
+                            <div>
+                                <span class="projects_subtitle">Prototype</span>
+                                <span class="projects_subtitle">Figma</span>
+                                <h1 class="projects_title">Tomasiknows Prototype</h1>
+                                <a href="#" class="projects_button">View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+        
+                        <div class="project_content-item">
+                            <img src="images/cosplay.png" alt="projects image" class="projects_image">
+                            <div>
+                                <span class="projects_subtitle">Web</span>
+                                <span class="projects_subtitle">HTML</span>
+                                <span class="projects_subtitle">CSS</span>
+                                <span class="projects_subtitle">JS</span>
+                                <h1 class="projects_title">Personal Cosplay Website</h1>
+                                <a href="#" class="projects_button">View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+        
+                        <div class="project_content-item">
+                            <img src="images/recordencryption.png" alt="projects image" class="projects_image">
+                            <div>
+                                <span class="projects_subtitle">Web</span>
+                                <span class="projects_subtitle">HTML</span>
+                                <span class="projects_subtitle">CSS</span>
+                                <span class="projects_subtitle">SQL</span>
+                                <span class="projects_subtitle">Java</span>
+                                <h1 class="projects_title">Record Encryption Website</h1>
+                                <a href="#" class="projects_button">View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+        
+                        <div class="project_content-item">
+                            <img src="images/trendhub.png" alt="projects image" class="projects_image">
+                            <div>
+                                <span class="projects_subtitle">Prototype</span>
+                                <span class="projects_subtitle">Figma</span>
+                                <span class="projects_subtitle">CSS</span>
+                                <span class="projects_subtitle">HTML</span>
+                                <h1 class="projects_title">Trend Hub Website</h1>
+                                <a href="#" class="projects_button">View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+        
+                        <div class="project_content-item">
+                            <img src="images/stringcounter.png" alt="projects image" class="projects_image">
+                            <div>
+                                <span class="projects_subtitle">Web</span>
+                                <span class="projects_subtitle">CSS</span>
+                                <span class="projects_subtitle">HTML</span>
+                                <span class="projects_subtitle">Java</span>
+                                <h1 class="projects_title">String Counter Kirby Inspo Website</h1>
+                                <a href="#" class="projects_button">View Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Activities -->
+        <section class="activities" id="activity">
+            <h2 class="section_title-3">Activity</h2>
+            <span class="section_subtitle">Most recent activity</span>
+
+            <div class="container section_border">
+                <div class="activity_container swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="project_content swiper-slide">
+                            <img src="images/techbayanihan.jfif" alt="activities image" class="activity_image">
+                            <div>
+                                <h1 class="activity_title">TechBayanihan 2024</h1>
+                            </div>
+                        </div>
+
+                        <div class="project_content swiper-slide">
+                            <img src="images/ux+.jfif" alt="activities image" class="activity_image">
+                            <div>
+                                <h1 class="activity_title">UX+ Conference 2024</h1>
+                            </div>
+                        </div>
+
+                        <div class="project_content swiper-slide">
+                            <img src="images/javausergroup.jfif" alt="activities image" class="activity_image">
+                            <div>
+                                <h1 class="activity_title">Tech Fusion: Data, Java, and Kafka Meetup 2024</h1>
+                            </div>
+                        </div>
+
+                        <div class="project_content swiper-slide">
+                            <img src="images/genaipt.2.jpg" alt="activities image" class="activity_image">
+                            <div>
+                                <h1 class="activity_title">Safety First for AI - Gen AI Ph 2024</h1>
+                            </div>
+                        </div>
+
+                        <div class="project_content swiper-slide">
+                            <img src="images/blockdojo.jfif" alt="activities image" class="activity_image">
+                            <div>
+                                <h1 class="activity_title">Block Dojo: Cohort 2</h1>
+                            </div>
+                        </div>
+
+                        <div class="project_content swiper-slide">
+                            <img src="images/genai.jfif" alt="activities image" class="activity_image">
+                            <div>
+                                <h1 class="activity_title">Education 4.0: Generative AI - Gen AI Ph 2024</h1>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- Contact -->
+        <section class="contact-me" id="contact">
+            <div class="container">
+                <h2 class="section_title-3">Contact Me</h2>
+                <span class="section_subtitle">Get in touch</span>
+
+                <div class="contact-content">
+                    <!-- Contact Information -->
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/alexa.medel.cute" target="_blank">
+                                    <i class="fa fa-facebook-messenger"></i> Messenger
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/639955577173" target="_blank">
+                                    <i class="fa fa-whatsapp"></i> WhatsApp
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:alexapalanog@gmail.com">
+                                    <i class="fa fa-envelope"></i> Email
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form">
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="contact-button">
+                                <i class="fa fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+</body>
+</html>
