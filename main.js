@@ -97,6 +97,9 @@ sr.reveal('.contact-info', {origin: 'left',distance: '50px',duration: 1000,delay
 sr.reveal('.contact-form', {origin: 'right',distance: '50px',duration: 1000,delay: 600,easing: 'ease-in-out'});
 
 /* ==== email js === */
+// Initialize EmailJS
+emailjs.init("_Bn_jNhGiyfSsuQqF"); // Replace with your actual EmailJS user ID
+
 // Add event listener to the form
 document.getElementById('contact-form').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent default form submission
@@ -108,7 +111,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     const message = form.message.value;
 
     // Send email using EmailJS
-    emailjs.send("service_pa4f49m", "service_pa4f49m", {
+    emailjs.send("service_pa4f49m", "template_hse6w7m", {
         from_name: name,
         from_email: email,
         message: message
@@ -127,4 +130,3 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         document.getElementById('response-message').style.display = "block";
     });
 });
-
