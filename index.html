@@ -9,9 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
+    
     <!--Header-->
     <header class="header" id="header">
         <nav class="nav container">
@@ -46,8 +48,7 @@
                     <a href="#contact" class="nav_link nav_link-button">Contact Me</a>
                 </li>
             </ul>
-
-
+            
                 <!-- Close button -->
                 <div class="nav_close" id="nav-close">
                     <i class="ri-close-line"></i>
@@ -55,12 +56,16 @@
             </div>
 
             <div class="nav_button">
-                <!-- Toggle button -->
+                <!-- Toggle button for mobile menu -->
                 <div class="nav_toggle" id="nav-toggle">
                     <i class="ri-menu-4-line"></i>
                 </div>
+
+                <!-- Dark Mode Toggle Button -->
+                <div class="toggleBtn">
+                    <i class="fa-solid fa-moon" id="dark-mode-toggle"></i>
+                </div>
             </div>
-            
         </nav>
     </header>
 
@@ -425,7 +430,7 @@
 
                     <!-- Contact Form -->
                     <div class="contact-form">
-                        <form action="#" method="post">
+                        <form id="contact-form">
                             <div class="form-group">
                                 <label for="name">Name</label>
                                 <input type="text" id="name" name="name" placeholder="Your Name" required>
@@ -442,13 +447,14 @@
                                 <i class="fa fa-paper-plane"></i> Send Message
                             </button>
                         </form>
+                        <div id="response-message" style="display: none;"></div>
                     </div>
                 </div>
             </div>
         </section>
 
     </main>
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="main.js"></script>
     
