@@ -211,6 +211,11 @@ img{
         transition: top .4s;
         z-index: var(--z-fixed);
     }
+
+    .toggleBtn .fa-sun {
+        top: 12px;
+        padding: 6px;
+    }
 }
 
 .nav_title,
