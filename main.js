@@ -86,12 +86,12 @@ sr.reveal('.contact-form', { origin: 'right', distance: '50px', duration: 1000, 
 
 // Initialize EmailJS with your public key
 (function() {
-    emailjs.init("W668vLiBFpLtN75T5");  // Replace with your EmailJS User ID
+    emailjs.init("W668vLiBFpLtN75T5"); 
 })();
 
 // Handle form submission
 document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent the default form submission
+    event.preventDefault();
 
     // Send the form using EmailJS
     emailjs.sendForm('service_pa4f49m', 'template_hse6w7m', this)
@@ -106,7 +106,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
             responseMessage.textContent = "Oops! Something went wrong. Please try again.";
             responseMessage.style.color = "red";
             responseMessage.style.display = "block";
-            console.error("EmailJS error:", error); // Log the error to the console
+            console.error("EmailJS error:", error); 
         });
 });
 
